@@ -39,3 +39,4 @@ cost_validated = limit_proposed_monthly_cost(limit)
 main = rule {
   cost_validated
 }
+#{"mode":"full","isActive":false}
