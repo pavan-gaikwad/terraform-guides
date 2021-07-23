@@ -3,7 +3,7 @@ import "tfrun"
 import "decimal"
 param Limit
 limit_proposed_monthly_cost = func(limit) {
-
+  print(limit.string)
   # Check whether cost estimate is available
   # It should be for Terraform 0.12.x
   # It should not be for Terraform 0.11.x
