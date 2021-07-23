@@ -1,7 +1,7 @@
 import "tfrun"
 # The standard decimal import
 import "decimal"
-
+param Limit
 limit_proposed_monthly_cost = func(limit) {
 
   # Check whether cost estimate is available
@@ -29,7 +29,7 @@ limit_proposed_monthly_cost = func(limit) {
 }
 
 # Monthly Limit
-limit = decimal.new(10)
+limit = decimal.new(Limit)
 
 # Call the validation function
 # Warnings will be printed for violations
