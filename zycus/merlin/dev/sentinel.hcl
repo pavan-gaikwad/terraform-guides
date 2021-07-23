@@ -1,3 +1,3 @@
 policy "cost_validated" {
-    enforcement_level = "Hard-mandatory"
+    enforcement_level = "hard-mandatory"
 }
