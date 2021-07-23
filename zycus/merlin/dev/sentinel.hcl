@@ -14,4 +14,5 @@ module "aws-functions" {
   source = "./aws/aws-functions/aws-functions.sentinel"
 }
 policy "restrict-ec2-instance-type" { enforcement_level = "hard-mandatory" }
+policy "validate-providers-from-desired-regions" { enforcement_level = "hard-mandatory" }
 policy "cost_validated" { enforcement_level = "hard-mandatory" }
