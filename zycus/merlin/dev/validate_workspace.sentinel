@@ -1,4 +1,4 @@
 import "tfconfig"
 main = rule {
-    print(tfconfig)
+    print(tfconfig.provider)
 }
