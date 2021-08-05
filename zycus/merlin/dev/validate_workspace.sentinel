@@ -1,4 +1,4 @@
-import "tfrun"
+import "tfconfig/v2" as tfconfig
 main = rule {
-    print(tfrun.workspace)
+    print(tfconfig)
 }
