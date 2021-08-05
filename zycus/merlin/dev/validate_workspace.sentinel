@@ -1,4 +1,4 @@
-import "tfconfig"
+import "tfconfig/v2" as tfconfig
 main = rule {
-    print(tfconfig.provider)
+    print(tfconfig.variables)
 }
