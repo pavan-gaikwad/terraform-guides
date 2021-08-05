@@ -1,6 +1,4 @@
-import "tfconfig-functions" as config
-# Standard imports
-import "tfconfig/v2" as tfconfig
+import "tfconfig"
 main = rule {
     print(tfconfig)
 }
